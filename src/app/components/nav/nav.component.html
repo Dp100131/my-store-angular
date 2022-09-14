@@ -35,8 +35,11 @@
       <div class="account">
         danielandrespintoortega21212@gmail.com
       </div>
-      <div>
-        <img src="../../../assets/svg/icon_shopping_cart.svg" alt="logo">
+      <div class="cart">
+        <a href="">
+          <img src="../../../assets/svg/icon_shopping_cart.svg" alt="logo">
+        </a>
+        <span class="counter" *ngIf="counter > 0">{{ counter }}</span>
       </div>
     </div>
   </div>
